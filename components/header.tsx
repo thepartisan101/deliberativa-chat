@@ -67,8 +67,8 @@ export async function Header() {
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconVercel className="mr-2" />
-          <span className="">d.</span>
+{/*           <IconVercel className="mr-2" /> */}
+          <span className="pr-5">d.</span>
           <span className="hidden sm:block">Deliberativa</span>
           <span className="sm:hidden">Visit</span>
         </a>
