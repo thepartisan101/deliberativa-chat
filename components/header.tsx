@@ -63,13 +63,14 @@ export async function Header() {
           <span className="hidden ml-2 md:flex">GitHub</span>
         </a>
         <a
-          href="https://github.com/vercel/nextjs-ai-chatbot/"
+          href="https://deliberativa.org/en/"
           target="_blank"
           className={cn(buttonVariants())}
         >
           <IconVercel className="mr-2" />
-          <span className="hidden sm:block">Deploy to Vercel</span>
-          <span className="sm:hidden">Deploy</span>
+          <span className="">d.</span>
+          <span className="hidden sm:block">Deliberativa</span>
+          <span className="sm:hidden">Visit</span>
         </a>
       </div>
     </header>
