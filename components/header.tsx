@@ -31,7 +31,6 @@ export async function Header() {
               <SidebarList userId={session?.user?.id} />
             </React.Suspense>
             <SidebarFooter>
-              <ThemeToggle />
               <ClearHistory clearChats={clearChats} />
             </SidebarFooter>
           </Sidebar>
@@ -53,15 +52,7 @@ export async function Header() {
         </div>
       </div>
       <div className="flex items-center justify-end space-x-2">
-        <a
-          target="_blank"
-          href="https://github.com/vercel/nextjs-ai-chatbot/"
-          rel="noopener noreferrer"
-          className={cn(buttonVariants({ variant: 'outline' }))}
-        >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
-        </a>
+        <ThemeToggle />
         <a
           href="https://deliberativa.org/en/"
           target="_blank"
