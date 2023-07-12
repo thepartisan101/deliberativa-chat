@@ -6,16 +6,16 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    heading: 'Explain what is civic lottery',
+    message: `What is the concept of "civic lottery"?`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'Analize a headline's objectivity',
+    message: 'Please analyze the following headline by measuring the subjectivity of the language used, whether the message is biased, the sentiment of the message, an also rewrite the headline in a neutral tone if needed: \n'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'Explain how a legislative drafting is done',
+    message: `Explain they key points and steps of drafting a legislative bill`
   }
 ]
 
@@ -24,10 +24,10 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Welcome to Deliberativa's Chatbot!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
+          An open source AI chatbot app template built with{' '}
           <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
           <ExternalLink href="https://vercel.com/storage/kv">
             Vercel KV
@@ -35,7 +35,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           .
         </p>
         <p className="leading-normal text-muted-foreground">
-          You can start a conversation here or try the following examples:
+          You can start a conversation here or try the following:
         </p>
         <div className="mt-4 flex flex-col items-start space-y-2">
           {exampleMessages.map((message, index) => (
