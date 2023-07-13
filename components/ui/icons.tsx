@@ -480,6 +480,7 @@ export {
   IconEdit,
   IconNextChat,
   IconOpenAI,
+  IconDeliberativa,
   IconVercel,
   IconGitHub,
   IconSeparator,
