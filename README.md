@@ -1,3 +1,29 @@
+# Deliberativa ChatGPT UI test
+*By Ruben Seoane*
+
+## Project Scope
+Setup a web UI to interact with OpenAI's GPT3.5 API
+
+### Solution brief
+As the scope is very simple and there are no given requirements for specific tools, frameworks, or limitations on the use of templating libraries/projects, I took the freedom to research for open source projects that get as close to the desired solution as possible. Given there were no hard constraints on time, I looked for a solution that ideally would have an active community of developers behind, and that would use best practices and the latest stack in terms of UI framweworks and components. Getting familiar with this would increase the chances of building a succesfull and maintanable product in case this solution is selected.
+
+Vercel has worked closely with OpenAI and have build SDKs and templates to take advantage of their infraestructure (like Edge functions) and front end framework (NextJS), so I chose this specific template.
+
+They have developed an SDK that can work with most of current LLM libraries and models, like Langchain (and LangchainJS), HuggingFace, Anthropic etc.
+Visit this [link](https://sdk.vercel.ai/docs) for more context
+
+Vercel also has a playground where one can simultaneusly compare the LLMs answers between ChatGPT, LLAMA, Anthropic etc as well as prompts, then generate templating code to use in the front-end. See this [link](https://sdk.vercel.ai/)
+
+### Solution features
+The UX has the following features:
+- Login with Github
+- Serverles DB to store user conversation history, which can be seen once logged in.
+
+## Template details
+
+<details>
+<summary>Expand</summary>
+
 <a href="https://chat.vercel.ai/">
   <img alt="Next.js 13 and app template Router-ready AI chatbot." src="https://chat.vercel.ai/opengraph-image.png">
   <h1 align="center">Next.js AI Chatbot</h1>
@@ -71,3 +97,5 @@ This library is created by [Vercel](https://vercel.com) and [Next.js](https://ne
 - Jared Palmer ([@jaredpalmer](https://twitter.com/jaredpalmer)) - [Vercel](https://vercel.com)
 - Shu Ding ([@shuding\_](https://twitter.com/shuding_)) - [Vercel](https://vercel.com)
 - shadcn ([@shadcn](https://twitter.com/shadcn)) - [Contractor](https://shadcn.com)
+
+</details>
