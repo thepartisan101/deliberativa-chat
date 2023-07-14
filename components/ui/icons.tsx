@@ -88,6 +88,21 @@ function IconNextChat({
   )
 }
 
+function IconDeliberativa({ className, ...props }: React.ComponentProps<'svg'>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      className={cn('h-4 w-4', className)}
+      {...props}
+    >
+      <title>Deliberativa icon</title>
+      <text x="0" y="20" fill="currentColor" fontSize="24px" fontFamily="Verdana">d.</text>
+    </svg>
+  );
+}
+
 function IconOpenAI({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
     <svg
