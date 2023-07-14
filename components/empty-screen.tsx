@@ -10,8 +10,8 @@ const exampleMessages = [
     message: `What is the concept of "civic lottery"?`
   },
   {
-    heading: 'Analize a headline&apos;s objectivity',
-    message: 'Please analyze the following headline by measuring the subjectivity of the language used, whether the message is biased, the sentiment of the message, an also rewrite the headline in a neutral tone if needed: \n'
+    heading: "Analize a headline's objectivity",
+    message: 'Please analyze the following headline by measuring the subjectivity of the language used, whether the message is biased, the sentiment of the message, an also rewrite the headline in a neutral tone if needed: \n [Add a healine here]'
   },
   {
     heading: 'Explain how a legislative drafting is done',
